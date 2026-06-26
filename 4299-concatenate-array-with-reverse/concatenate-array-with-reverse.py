@@ -1,5 +1,5 @@
 class Solution(object):
-    a = []
+    a = 0
     def concatWithReverse(self, nums):
         """
         :type nums: List[int]
