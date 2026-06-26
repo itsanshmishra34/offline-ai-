@@ -1,7 +1,9 @@
 class Solution(object):
+    a = []
     def concatWithReverse(self, nums):
         """
         :type nums: List[int]
         :rtype: List[int]
         """
-        return nums + nums[::-1]
+        self.a = nums + nums[::-1]
+        return self.a
